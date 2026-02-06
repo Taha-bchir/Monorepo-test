@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+    "@repo/database": ["packages/database/src/index.ts"]
+},
     "target": "ESNext",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
